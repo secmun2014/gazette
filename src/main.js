@@ -23,17 +23,17 @@ const vuetify = createVuetify({
   components,
   directives,
   theme: {
-    defaultTheme: "default",
+    defaultTheme: "gazette",
     themes: {
-      default: {
+      gazette: {
         dark: false,
         colors: {
-          primary: "#005bac", // UN blue for action elements
-          secondary: "#003366", // Deep navy for structure
-          accent: "#ffd700", // Gold for highlights
-          surface: "#1e1e1e", // Darker surface for cards and containers
-          background: "#121212", // Pure dark background
-          success: "#007a3d", // UN green for success indicators
+          primary: "#1a1a1a", // Soft black — headlines, main text
+          secondary: "#1a1a1a", // Dark gray — subtext, metadata
+          accent: "#7a7a7a", // Medium gray — muted interactive elements
+          surface: "#f2f2f2", // White — card/content background
+          background: "#f2f2f2", // Light gray — page background
+          success: "#3d3d3d", // Neutral gray — used if needed, not green
         },
       },
     },
