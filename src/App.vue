@@ -4,7 +4,7 @@
             <template #prepend>
                 <v-btn prepend-icon="mdi-menu" text="menu" stacked size="x-small" @click.stop="drawer = !drawer" />
             </template>
-            <v-app-bar-title v-if="!pdf" class="carol-gothic text-h4 text-center" @click="$router.push('/')">
+            <v-app-bar-title v-if="!pdf" class=" text-h4 text-center carol-gothic" @click="$router.push('/')">
                 s e c m u n
             </v-app-bar-title>
             <template #append>
@@ -118,11 +118,11 @@ const copyLink = (text) => {
     font-style: normal;
 }
 
-* {
+body {
     font-family: "Literaturnaya";
 }
 
 .carol-gothic {
-    font-family: "CarolGothic";
+    font-family: "CarolGothic" !important;
 }
 </style>
