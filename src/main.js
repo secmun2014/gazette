@@ -28,12 +28,12 @@ const vuetify = createVuetify({
       gazette: {
         dark: false,
         colors: {
-          primary: "#1a1a1a", // Soft black — headlines, main text
-          secondary: "#1a1a1a", // Dark gray — subtext, metadata
-          accent: "#7a7a7a", // Medium gray — muted interactive elements
-          surface: "#f2f2f2", // White — card/content background
-          background: "#f2f2f2", // Light gray — page background
-          success: "#3d3d3d", // Neutral gray — used if needed, not green
+          primary: "#38383d",
+          secondary: "#38383d", 
+          accent: "#c3c3c5", 
+          surface: "#f2f2f2",
+          background: "#f2f2f2", 
+          success: "#38383d",
         },
       },
     },
